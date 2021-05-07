@@ -7,6 +7,7 @@ mod arrays;
 mod vcetors;
 mod conditionals;
 mod loops;
+mod functions;
 
 fn main() {
     print::run();
@@ -26,6 +27,8 @@ fn main() {
     conditionals::run();
     println!("\n=================================\n");
     loops::run();
+    println!("\n=================================\n");
+    functions::run();
     println!("\n=================================\n");
 
 }   
