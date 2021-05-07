@@ -8,6 +8,7 @@ mod vcetors;
 mod conditionals;
 mod loops;
 mod functions;
+mod pointers;
 
 fn main() {
     print::run();
@@ -29,6 +30,8 @@ fn main() {
     loops::run();
     println!("\n=================================\n");
     functions::run();
+    println!("\n=================================\n");
+    pointers::run();
     println!("\n=================================\n");
 
 }   
