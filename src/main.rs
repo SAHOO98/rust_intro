@@ -1,11 +1,16 @@
 mod print;
 mod var;
-mod data_types;
+mod data_types_primitive;
+mod strings;
+
 fn main() {
     print::run();
     println!("\n=================================\n");
     var::run();
     println!("\n=================================\n");
-    data_types::run();
+    data_types_primitive::run();
     println!("\n=================================\n");
+    strings::run();
+    println!("\n=================================\n");
+
 }   
