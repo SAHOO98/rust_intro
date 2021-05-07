@@ -9,6 +9,8 @@ mod conditionals;
 mod loops;
 mod functions;
 mod pointers;
+mod structs;
+mod enums;
 
 fn main() {
     print::run();
@@ -32,6 +34,10 @@ fn main() {
     functions::run();
     println!("\n=================================\n");
     pointers::run();
+    println!("\n=================================\n");
+    structs::run();
+    println!("\n=================================\n");
+    enums::run();
     println!("\n=================================\n");
 
 }   
