@@ -12,6 +12,16 @@ pub fn run(){
         }
     }
 
+    //Returning value from loop
+    count = 0;
+    let result = loop {
+        count += 1;
+        if count == 10 {
+        break count * 2;
+        }
+    };
+    println!("The result is {}", result);
+
     count = 1;
     // While loop
     println!("\nfizzbuzz\n");
